@@ -27,9 +27,11 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  background-color:black !important;
 }
 body {
   margin: 0;
+  background-color:black !important;
 }
 a:focus {
   outline: thin dotted;
@@ -161,6 +163,9 @@ pre,
 code {
   font-family: 'Inconsolata', sans-serif;
 }
+code.literal{
+ color: rgb(131, 148, 150) !important;
+}
 h1,
 h2,
 h3,
@@ -213,6 +218,9 @@ pre {
 }
 pre code {
   background-color: #002b36;
+}
+pre, pre.programlisting{
+ color: #669900 !important;
 }
 h1 {
   font-size: 2.8em;
@@ -297,4 +305,3 @@ h6 {
   border-radius: 0.2em;
   background-color: #859900;
 }
-
